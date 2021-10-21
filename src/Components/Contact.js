@@ -8,11 +8,11 @@ const Contact = ({ data }) => {
 
   if (data) {
     var contactName = data.name;
-    var street = data.address.street;
     var city = data.address.city;
     var state = data.address.state;
-    var zip = data.address.zip;
     var phone = data.phone;
+    var phonelink = 'tel:' + data.phone;
+    var emailLink = 'mailto:' + data.email;
     var contactEmail = data.email;
     var contactMessage = data.contactmessage;
   }
@@ -32,7 +32,7 @@ const Contact = ({ data }) => {
       <div className="row section-head">
         <div className="two columns header-col">
           <h1>
-            <span>Get In Touch.</span>
+            <span>Let's Talk!</span>
           </h1>
         </div>
 
@@ -110,7 +110,7 @@ const Contact = ({ data }) => {
             </fieldset>
           </form>
 
-          <div id="message-warning"> Error boy</div>
+          <div id="message-warning"> Error</div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
@@ -119,17 +119,15 @@ const Contact = ({ data }) => {
 
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
+            <h4>Contact Direct</h4>
             <p className="address">
               {contactName}
               <br />
-              {contactEmail}
+              <a href={emailLink}>{contactEmail}</a>
               <br />
+              {city}, {state}
               <br />
-              {street} <br />
-              {city}, {state} {zip}
-              <br />
-              <span>{phone}</span>
+              <span><a href={phonelink}>{phone}</a></span>
             </p>
           </div>
         </aside>

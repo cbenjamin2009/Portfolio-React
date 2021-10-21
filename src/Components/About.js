@@ -10,7 +10,9 @@ const About = ({ data }) => {
     var state = data.address.state;
     var zip = data.address.zip;
     var phone = data.phone;
+    var phonelink = 'tel:' + data.phone;
     var email = data.email;
+    var emailLink = 'mailto:' + data.email;
     var resumeDownload = data.resumedownload;
   }
 
@@ -21,7 +23,7 @@ const About = ({ data }) => {
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Sonny's Profile Pic"
+            alt="Chris' Profile Picture"
           />
         </div>
         <div className="nine columns main-col">
@@ -35,14 +37,12 @@ const About = ({ data }) => {
                 <span>{name}</span>
                 <br />
                 <span>
-                  {street}
-                  <br />
-                  {city} {state}, {zip}
+                  {city} {state}
                 </span>
                 <br />
-                <span>{phone}</span>
+                <span><a href={phonelink}>{phone}</a></span>
                 <br />
-                <span>{email}</span>
+                <span><a href={emailLink}>{email}</a></span>
               </p>
             </div>
             <div className="columns download">
