@@ -2,7 +2,7 @@
   "main": {
     "name": "Chris Benjamin",
     "occupation": "Owner of Taco-IT",
-    "description": "I simplify your website",
+    "description": "I make your business stand out online!",
     "image": "profilepic.jpg",
     "bio": "Greetings, I am Chris Benjamin! I've been an IT Professional for over 15 years and have worked in a variety of industries and held various IT roles including Technician, IT Manager, IT Director, Chief Information Security Officer, and System Administrator. I earned by Bachelor's of Computer Science Degree from DeVry University in 2013 where I studied Web Application Administration and Design. I went on to earn my Master's of Computer Science in 2018 where I focused on IT Management. I have the skills and experience to help your business grow it's web presence and make an impact on the internet.",
     "contactmessage": "Let's Discuss Your Website Needs Today!",
@@ -18,24 +18,14 @@
     "resumedownload": "http://taco-it.com",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/cbenjamin2009",
-        "className": "fa fa-youtube"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/cbenjamin2009",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/cbenjamin2009",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/",
-        "className": "fa fa-instagram"
+        "name": "CodePen",
+        "url": "https://codepen.io/willcodefortacos",
+        "className": "fa fa-codepen"
       },
       {
         "name": "github",
@@ -45,7 +35,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "My Programming Language Proficiency",
+    "skillmessage": "My Programming Language Skills Are Always Growing",
     "education": [
       {
         "school": "Western Governors University",
@@ -66,20 +56,42 @@
         "title": "Founder and Owner",
         "years": "April 2021 - Present",
         "description": "To empower businesses to utilize technology as an asset. Let the power of technology in todays' digital world work for you so you can focus on your own innovations."
+      },
+      {
+        "company": "Office of Michael Malaier",
+        "title": "IT Manager | Systems Administrator | Developer",
+        "years": "April 2020 - Present",
+        "description": "IT Manager for small business office, custom development, Server and Workstation administration, Network Management. "
+      },
+      {
+        "company": "Cascade Eye and Skin Centers, P.C. ",
+        "title": "IT Manager | HIPAA Security Officer",
+        "years": "January 2019 - April 2020",
+        "description": "IT Manager and HIPPA Security Office for medium sized medical practices with multiple offices, managed small team of IT professionals and oversaw all IT operations"
+      },
+      {
+        "company": "ACC-Tech",
+        "title": "IT Director",
+        "years": "April 2012 - January 2019",
+        "description": "Launched Managed Service Provider (MSP) division of company and Cloud Services Provider (CSP) division of company. Managed staff and business operations, established and maintained client / vendor relationships. "
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "80%"
       },
       {
         "name": "Bootstrap",
         "level": "80%"
       },
       {
+        "name": "NextJS",
+        "level": "25%"
+      },
+      {
         "name": "Tailwind CSS",
-        "level": "40%"
+        "level": "60%"
       },
       {
         "name": "jQuery",
@@ -106,6 +118,18 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Amazon Clone",
+        "category": "Website Clone",
+        "image": "amazon-clone.png",
+        "url": "https://amazon-clone-virid.vercel.app/"
+      },
+      {
+        "title": "Hulu Clone",
+        "category": "Website Clone",
+        "image": "hulu-clone.png",
+        "url": "https://hulu2-react-next-tailwind.vercel.app/?genre=fetchComedyMovies"
+      },
+      {
         "title": "Custom Liquidation Calculator",
         "category": "Custom Apps",
         "image": "liquidation_custom_app.png",
@@ -130,10 +154,16 @@
         "url": "https://cbenjamin2009.github.io/Wildfire-Tracker/index.html"
       },
       {
+        "title": "Password Generator",
+        "category": "Custom Tool",
+        "image": "password-generator.png",
+        "url": "https://cbenjamin2009.github.io/Wildfire-Tracker/index.html"
+      },
+      {
         "title": "Sample Restaurant Website",
         "category": "Sample Website",
         "image": "restaurant_website.png",
-        "url": "about:blank"
+        "url": "https://codepen.io/WillCodeForTacos/full/OJjWmOP"
       },
       {
         "title": "Rock Paper Scissors",
