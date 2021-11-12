@@ -49,11 +49,11 @@ const Header = ({ data }) => {
               Works
             </a>
           </li>
-          {/* <li>
-            <a className="smoothscroll" href="#testimonials">
-              Testimonials
+          <li>
+            <a className="smoothscroll" href="https://chrisbenjamin.hashnode.dev">
+              Blog
             </a>
-          </li> */}
+          </li>
           <li>
             <a className="smoothscroll" href="#contact">
               Contact
