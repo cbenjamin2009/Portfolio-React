@@ -27,15 +27,15 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
-      return (
-        <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
-      );
-    });
+    // var skills = data.skills.map(function (skills) {
+    //   var className = "bar-expand " + skills.name.toLowerCase();
+    //   return (
+    //     <li key={skills.name}>
+    //       <span style={{ width: skills.level }} className={className}></span>
+    //       <em>{skills.name}</em>
+    //     </li>
+    //   );
+    // });
   }
 
   return (
@@ -74,9 +74,9 @@ const Resume = ({ data }) => {
         <div className="nine columns main-col">
           <p>{skillmessage}</p>
 
-          <div className="bars">
+          {/* <div className="bars">
             <ul className="skills">{skills}</ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
