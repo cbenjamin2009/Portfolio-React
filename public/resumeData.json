@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Chris Benjamin",
-    "occupation": "Owner of Taco-IT",
-    "description": "I make your business stand out online!",
+    "occupation": "IT Manager, Developer, and Owner of Taco-IT",
+    "description": "I create websites, software, and solutions that make your business thrive!",
     "image": "profilepic.jpg",
-    "bio": "Greetings, I am Chris Benjamin! I've been an IT Professional for over 15 years and have worked in a variety of industries and held various IT roles including Technician, IT Manager, IT Director, Chief Information Security Officer, and System Administrator. I earned by Bachelor's of Computer Science Degree from DeVry University in 2013 where I studied Web Application Administration and Design. I went on to earn my Master's of Computer Science in 2018 where I focused on IT Management. I have the skills and experience to help your business grow it's web presence and make an impact on the internet.",
+    "bio": "Greetings, I am Chris Benjamin! I've been an IT Professional for over 15 years and have worked in a variety of industries and held various IT roles including Technician, IT Manager, IT Director, Chief Information Security Officer, and System Administrator. I earned by Bachelor's of Computer Science Degree from DeVry University in 2013 where I studied Web Application Administration and Design. I went on to earn my Master's of Computer Science in 2018 where I focused on IT Management. I have the skills and experience to help your business grow its web presence and make an impact on the internet.",
     "contactmessage": "Let's Discuss Your Website Needs Today!",
     "email": "chris@taco-it.com",
     "phone": "+1 360-878-6363",
@@ -121,55 +121,64 @@
         "title": "Amazon Clone",
         "category": "Website Clone",
         "image": "amazon-clone.png",
-        "url": "https://amazon-clone-virid.vercel.app/"
+        "url": "https://amazon-clone-virid.vercel.app/",
+        "technology": "NextJS, ReactJS, TailWind"
       },
       {
         "title": "Hulu Clone",
         "category": "Website Clone",
         "image": "hulu-clone.png",
-        "url": "https://hulu2-react-next-tailwind.vercel.app/?genre=fetchComedyMovies"
+        "url": "https://hulu2-react-next-tailwind.vercel.app/?genre=fetchComedyMovies",
+        "technology": "ReactJS, TailWind"
       },
       {
         "title": "Custom Liquidation Calculator",
         "category": "Custom Apps",
         "image": "liquidation_custom_app.png",
-        "url": "https://chapter13tacoma.org/liquidation-calculator/"
+        "url": "https://chapter13tacoma.org/liquidation-calculator/",
+        "technology": "JavaScript"
       },
       {
         "title": "Wedding Website",
         "category": "Custom Website",
         "image": "wedding_website.png",
-        "url": "https://cbenjamin2009.github.io/rhcbwedding/#"
+        "url": "https://cbenjamin2009.github.io/rhcbwedding/#",
+        "technology": "ReactJS"
       },
       {
         "title": "LinkedIn Clone (React JS)",
         "category": "Website Clone",
         "image": "linkedin_clone.png",
-        "url": "https://linkedin-clone-92304.web.app/"
+        "url": "https://linkedin-clone-92304.web.app/",
+        "technology": "ReactJS"
       },
       {
         "title": "Wildfire Tracker",
         "category": "Custom Website",
         "image": "wildfire_tracker.png",
-        "url": "https://cbenjamin2009.github.io/Wildfire-Tracker/index.html"
+        "url": "https://cbenjamin2009.github.io/Wildfire-Tracker/index.html",
+        "technology": "NASA API, JavaScript"
       },
       {
         "title": "Password Generator",
         "category": "Custom Tool",
         "image": "password-generator.png",
-        "url": "https://cbenjamin2009.github.io/Wildfire-Tracker/index.html"
+        "url": "https://cbenjamin2009.github.io/Wildfire-Tracker/index.html",
+        "technology": "JavaScript"
       },
       {
         "title": "Sample Restaurant Website",
         "category": "Sample Website",
         "image": "restaurant_website.png",
-        "url": "https://codepen.io/WillCodeForTacos/full/OJjWmOP"
+        "url": "https://codepen.io/WillCodeForTacos/full/OJjWmOP",
+        "technology": "HTML, Javascript, CSS"
       },
       {
         "title": "Rock Paper Scissors",
         "category": "Sample Game",
         "image": "rock_paper_scissors.png",
-        "url": "https://codepen.io/WillCodeForTacos/full/vYgPRqM"
+        "url": "https://codepen.io/WillCodeForTacos/full/vYgPRqM",
+        "technology": "HTML, Javascript, CSS"
       }
     ]
   },
