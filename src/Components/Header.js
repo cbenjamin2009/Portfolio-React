@@ -50,7 +50,7 @@ const Header = ({ data }) => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="https://chrisbenjamin.hashnode.dev">
+            <a className="smoothscroll" href="#blog">
               Blog
             </a>
           </li>

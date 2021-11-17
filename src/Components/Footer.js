@@ -21,10 +21,7 @@ const Footer = ({ data }) => {
 
           <ul className="copyright">
             <li>
-              Made by{" "}
-              <a title="Taco-IT" href="http://www.taco-it.com/">
-                PAPA
-              </a>
+            Copyright © 2021 | Chris Benjamin | Website By: <a className="footerLink" href="https://www.taco-it.com">Taco-IT</a> 
             </li>
           </ul>
         </div>
