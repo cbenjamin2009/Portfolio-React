@@ -16,10 +16,104 @@
 
 .skillsGrid{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 10em;
+  grid-template-columns: repeat(5, 1fr);
+  /* gap: 10em; */
+  gap: 20px;
   grid-auto-rows: auto;
   height: 100vh;
+}
+
+.skillsGrid img {
+  height: 100px;
+  width: 100px;
+}
+
+.skills h2{
+  margin-bottom: 2em;
+}
+
+/* Small Screens max width 640px */
+@media screen and (max-width: 640px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+
+  
+.skillsGrid img {
+  height: 75px;
+  width: 75px;
+}
+
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+}
+/* Medium Screens min width 641px change to 4 columns */
+@media screen and (min-width: 641px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+
+  
+.skillsGrid img {
+  height: 100px;
+  width: 100px;
+}
+
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+}
+/* Medium Screens min width 1080px change to 8 columns */
+
+@media screen and (min-width: 1080px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px;
+    grid-auto-rows: auto;
+    height: auto
+  }
+
+  
+.skillsGrid img {
+  height: 150px;
+  width: 150px;
+}
+
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 }
 
 .skills{
@@ -33,14 +127,6 @@
   align-items: center;
 }
 
-.skillsGrid img {
-  height: 100px;
-  width: 100px;
-}
-
-.skills h2{
-  margin-bottom: 2em;
-}
 
 
 
