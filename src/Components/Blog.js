@@ -49,7 +49,7 @@ function Blog() {
             <h2>A collection of my recent blog articles</h2>
             {!loading ? <div class="blog-container">
                 {blogs.map((post, index) => (
-                    <a key={index} href={`https://chrisbenjamin.hashnode.com/${post.slug}`} >
+                    <a key={index} href={`https://chrisbenjamin.hashnode.dev/${post.slug}`} >
                         <Post post={post} />
                     </a>
                 ))}

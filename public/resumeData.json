@@ -23,14 +23,14 @@
         "className": "fa fa-linkedin"
       },
       {
-        "name": "CodePen",
-        "url": "https://codepen.io/willcodefortacos",
-        "className": "fa fa-codepen"
-      },
-      {
         "name": "github",
         "url": "https://github.com/cbenjamin2009",
         "className": "fa fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/_ChrisBenjamin",
+        "className": "fa fa-twitter"
       }
     ]
   },
