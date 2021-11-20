@@ -7,11 +7,11 @@
     "bio": "Greetings, I am Chris Benjamin! I've been an IT Professional for over 15 years and have worked in a variety of industries and held various IT roles including Technician, IT Manager, IT Director, Chief Information Security Officer, and System Administrator. I earned by Bachelor's of Computer Science Degree from DeVry University in 2013 where I studied Web Application Administration and Design. I went on to earn my Master's of Computer Science in 2018 where I focused on IT Management. I have the skills and experience to help your business grow its web presence and make an impact on the internet.",
     "contactmessage": "Let's Discuss Your Website Needs Today!",
     "email": "chris@taco-it.com",
-    "phone": "+1 360-878-6363",
+    "phone": "",
     "address": {
-      "street": "18913 94th Ave E",
+      "street": "",
       "city": "Puyallup",
-      "state": "Washington",
+      "state": "Washington, USA",
       "zip": "98375"
     },
     "website": "https://www.taco-it.com",
@@ -23,14 +23,14 @@
         "className": "fa fa-linkedin"
       },
       {
-        "name": "CodePen",
-        "url": "https://codepen.io/willcodefortacos",
-        "className": "fa fa-codepen"
-      },
-      {
         "name": "github",
         "url": "https://github.com/cbenjamin2009",
         "className": "fa fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/_ChrisBenjamin",
+        "className": "fa fa-twitter"
       }
     ]
   },
@@ -47,7 +47,7 @@
         "school": "DeVry University",
         "degree": "Bachelor's Degree, Computer Science",
         "graduated": "June 2013",
-        "description": "Studied Web Application Desind Administration"
+        "description": "Studied Web Application Design Administration"
       }
     ],
     "work": [
@@ -55,7 +55,7 @@
         "company": "Taco-IT",
         "title": "Founder and Owner",
         "years": "April 2021 - Present",
-        "description": "To empower businesses to utilize technology as an asset. Let the power of technology in todays' digital world work for you so you can focus on your own innovations."
+        "description": "My Small Business: To empower businesses to utilize technology as an asset. Let the power of technology in todays' digital world work for you so you can focus on your own innovations."
       },
       {
         "company": "Office of Michael Malaier",
@@ -67,51 +67,13 @@
         "company": "Cascade Eye and Skin Centers, P.C. ",
         "title": "IT Manager | HIPAA Security Officer",
         "years": "January 2019 - April 2020",
-        "description": "IT Manager and HIPPA Security Office for medium sized medical practices with multiple offices, managed small team of IT professionals and oversaw all IT operations"
+        "description": "IT Manager and HIPAA Security Office for medium sized medical practices with multiple offices, managed small team of IT professionals and oversaw all IT operations"
       },
       {
         "company": "ACC-Tech",
         "title": "IT Director",
         "years": "April 2012 - January 2019",
         "description": "Launched Managed Service Provider (MSP) division of company and Cloud Services Provider (CSP) division of company. Managed staff and business operations, established and maintained client / vendor relationships. "
-      }
-    ],
-    "skills": [
-      {
-        "name": "ReactJs",
-        "level": "80%"
-      },
-      {
-        "name": "Bootstrap",
-        "level": "80%"
-      },
-      {
-        "name": "NextJS",
-        "level": "25%"
-      },
-      {
-        "name": "Tailwind CSS",
-        "level": "60%"
-      },
-      {
-        "name": "jQuery",
-        "level": "65%"
-      },
-      {
-        "name": "Python",
-        "level": "25%"
-      },
-      {
-        "name": "Git",
-        "level": "50%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "99%"
-      },
-      {
-        "name": "Web Development",
-        "level": "95%"
       }
     ]
   },

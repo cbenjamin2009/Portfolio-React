@@ -87,7 +87,6 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -158,7 +157,7 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
+   color: #3d4145;
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
@@ -295,7 +294,7 @@ a, a:visited {
    -o-transition: color .3s ease-in-out;
    transition: color .3s ease-in-out;
 }
-a:hover, a:focus { color: #313131; }
+a:hover, a:focus { color: whitesmoke; }
 p a, p a:visited { line-height: inherit; }
 
 
@@ -346,7 +345,7 @@ li p { }
 	font-size: 22px;
 	font-family: 'opensans-bold', sans-serif;
    border: none;
-   color: #313131;
+   color: whitesmoke;
 }
 .stats-tabs li a:hover {
    color:#11ABB0;

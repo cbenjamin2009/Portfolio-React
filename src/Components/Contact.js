@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import GlassButton from 'glass-buttons'
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -103,9 +104,10 @@ const Contact = ({ data }) => {
               </div>
 
               <div>
-                <button onClick={submitForm} type="submit" className="submit">
+                {/* <button onClick={submitForm} type="submit" className="submit">
                   Submit
-                </button>
+                </button> */}
+                <GlassButton onClick={submitForm} type="submit" className="glass-submit" variant="primary" name="submit"/>
               </div>
             </fieldset>
           </form>
